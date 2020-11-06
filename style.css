@@ -1,0 +1,58 @@
+body {
+    align-items: center;
+    position: relative;
+    font-family: cursive;
+}
+
+.bg{
+    width: 1500px;
+    height: 750px;
+}
+
+.mainheading {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color: yellow;
+    background-color: rgb(1, 204, 255);
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.playbtn {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(37, 37, 248), rgb(33, 181, 240));
+    border-radius: 100px;
+    font-family: cursive;
+    border: 5px solid white;
+    color: white;
+}
+
+.gameHeading {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    color: yellow;
+    background-color: rgb(1, 204, 255);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.controls {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: yellow;
+    background-color: rgb(1, 204, 255);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
